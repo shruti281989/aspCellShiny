@@ -135,9 +135,13 @@ renv::snapshot()
 # 2. Create a Dockerfile for your app with name 'Dockerfile' without 
 # any extensions
 
-# Step 3. Build and publish a Docker image
+# 3. Build and publish a Docker image
 # Docker image needs to be built and published in a so-called image registry. 
 # We do it with the manual option on DockerHub
 # Option A: Manually building and publishing an image
 # In terminal:
 # docker build --platform linux/amd64 -t shruti281989/aspcell_nitrate:1.0 .
+
+# 4. Create a user account on SciLifeLab Serve
+# 5. Create a project
+# 6. Cretae an app
